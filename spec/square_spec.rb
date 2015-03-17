@@ -6,4 +6,9 @@ describe Square do
     expect(square).to respond_to(:side)
   end
 
+  it "should respond to area" do
+    square = Square.new(4)
+    expect(square).to respond_to(:area)
+  end
+
 end
